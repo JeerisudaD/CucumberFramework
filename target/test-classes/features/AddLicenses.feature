@@ -11,3 +11,13 @@ Feature: Adding licenses in qualifications
     And user enters license name
     And user clicks on save license button
     Then License added successfully
+
+
+  @sprint1 @Gigi @datatable
+  Scenario: adding multiple licenses in qualification using data table
+    And admin user adds multiple license
+      | LicensesName    |
+      | JavaLicense     |
+      | TestNgLicense   |
+      | SeleniumLicense |
+      | CucumberLicense |

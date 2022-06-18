@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
         //use and if we need to execute scenarios from logical and keyword which will execute the scenarios
         //having both the tags in it
 
-        tags = "@GG",
+        tags = "@ETETest1",
         //tags="@sprint12 and @smoke"
         //tags ="@smoke or @regression"
 

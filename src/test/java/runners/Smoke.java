@@ -19,7 +19,10 @@ import org.junit.runner.RunWith;
         //it means the console output for cucumber test is having irrelevant information
         // when we set it to true, it simply removes all the irrelevant information
         monochrome = true,
-        tags = "@GG"
+        tags = "@ETETest1",
+        plugin = {"html:target/cucumber.html", "pretty","json:target/cucumber.json",
+        "rerun:target/failed.txt"
+}
 )
 public class Smoke {
 }
