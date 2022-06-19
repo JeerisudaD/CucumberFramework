@@ -219,7 +219,7 @@ prettyPrint - it is used to print the response in console
 ============================================================================================
 
 Class 6
-Rercap -
+Recap -
 Java rest assured API -
 
 Domains specific language which allows us to transfer data in the json or json object
@@ -227,4 +227,51 @@ Domains specific language which allows us to transfer data in the json or json o
 given - prepare the request
 when - making a call
 then - verification/assertion
+============================================================================================
 
+Class 7
+
+Recap -
+
+To create an employee we use -
+POST -
+Base url = base URI
+end point
+Headers
+body
+token
+
+
+then -
+
+- jsonPath()
+
+- To retrieve employee from the database
+GET -
+query parameter
+token
+
+@Test - junit annotation we use to execute our test cases
+@Fix method order we use to change the flow of execution (Name.Ascending - alphabetical order)
+
+TO update the details of the employee
+PUT
+body
+header
+token
+end point
+
+200 vs 201
+============================================================================================
+
+Class 8 -
+
+Recap -
+
+Generate token via automation
+
+Created POST request to add an employee in feature file
+
+API constants class -
+API payload constants - the body we need to create, update employee record, we can pass it from
+api payload constants class

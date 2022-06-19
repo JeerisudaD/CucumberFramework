@@ -25,4 +25,6 @@ public class GenerateTokenSteps {
         System.out.println(token);
 
     }
+
+
 }
